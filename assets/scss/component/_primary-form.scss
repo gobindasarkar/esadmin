@@ -1,0 +1,101 @@
+/*===============================
+#.primary-form
+=================================*/
+.primary-form {
+    .single-form-wrap {
+        margin-bottom: 3rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .single-form-box {
+        border: 1px solid var(--primary-color);
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 100%;
+        background-color: var(--white);
+        .form-box-header {
+            padding: 1rem;
+            background-color: var(--primary-color);
+            h3 {
+                margin: 0;
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: var(--white);
+            }
+        }
+        .form-box-body {
+            padding: 1.5rem 1rem;
+        }
+    }
+    .form-check {
+        display: flex;
+        line-height: 1;
+        margin-bottom: .8rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .form-check-input {
+            width: 1.8rem;
+            height: 1.6rem;
+            border-radius: .3rem;
+            border: 1px solid var(--primary-color);
+            margin-top: -2px;
+            margin-right: 1rem;
+            box-shadow: none;
+            outline: none;
+            &:checked {
+                background-color: var(--primary-color);
+            }
+        }
+        .form-check-label {
+            margin: 0;
+            font-size: 1.4rem;
+            line-height: 1.3rem;
+            font-weight: 400;
+            color: var(--black);
+            cursor: pointer;
+            flex: 1;
+        }
+    }
+    .form-group {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: var(--black);
+        .form-title {
+            display: inline-block;
+            min-width: 8rem;
+        }
+        label {
+            display: block;
+            margin-bottom: .5rem;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: var(--black);
+        }
+        .form-control {
+            height: 1.8rem;
+            border: 1px solid var(--primary-color);
+            background: #F2EDED;
+            padding: .5rem 1rem;
+            font-family: $bodyFont;
+            font-size: 1.4rem;
+            height: 3rem;
+            color: var(--black);
+        }
+    }
+    .clockinout {
+        .form-control {
+            width: 10rem;
+        }
+        label {
+            margin: 0;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .primary-form .clockinout .form-control {
+        width: 100%;
+    }
+}

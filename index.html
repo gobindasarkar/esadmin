@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ES Admin Responsive HTML5 Template</title>
+    <meta name="description" content="ES Admin Responsive  HTML5 Template ">
+    <meta name="keywords"
+        content="business,corporate, creative, woocommerach, design, gallery, minimal, modern, landing page, cv, designer, freelancer, html, one page, personal, portfolio, programmer, responsive, vcard, one page">
+    <meta name="author" content="ES Admin">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- fonts file -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- css file  -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-5">
+                    <a class="brand-logo" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="col-7">
+                    <div class="header-right">
+                        <a href="#" class="header-btn">
+                            <img src="assets/images/bell.svg" alt="bell">
+                            <span class="count">10</span>
+                        </a>
+                        <a href="#" class="header-btn">
+                            <img src="assets/images/inbox.svg" alt="inbox">
+                            <span class="count">10</span>
+                        </a>
+                        <div class="dropdown">
+                            <button class="profile-btn" type="button" data-bs-toggle="dropdown">
+                                <div class="profile-img">
+                                    <img src="assets/images/profile-1.png" alt="Asokh Kumar">
+                                </div>
+                                <div class="profile-info">
+                                    <h4 class="profile-name">Asokh Kumar</h4>
+                                    <span class="admin">Super Admin</span>
+                                </div>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">profile</a></li>
+                                <li><a class="dropdown-item" href="#">inbox</a></li>
+                                <li><a class="dropdown-item" href="#">settings</a></li>
+                                <li><a class="dropdown-item" href="#">log out</a></li>
+                            </ul>
+                        </div>
+                        <button class="d-xl-none toggle-btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                                class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-contain-area">
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling">
+            <div class="offcanvas-header">
+                <div class="user-area">
+                    <div class="user-left">
+                        <img src="assets/images/profile-1.png" alt="user">
+                    </div>
+                    <div class="user-right">
+                        <h3>admin@admin.com</h3>
+                        <ul class="user-meta">
+                            <li><a href="#"><img src="assets/images/inbox-icon.svg" alt="inbox"></a></li>
+                            <li><a href="#"><img src="assets/images/settings-icon.svg" alt="settings"></a></li>
+                            <li><a href="#"><img src="assets/images/logout-icon.svg" alt="logout"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn-close d-xl-none" data-bs-dismiss="offcanvas"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="sidebar-menu">
+                    <ul>
+                        <li class="current-menu-item"><a href="#"><img class="menu-icon"
+                                    src="assets/images/menu-icon-1.svg" alt="icon"> <span>Dashboard</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Clients</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Employees</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Billing</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Payroll</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Availability</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Reports</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Manage admin user</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Notifications</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Configurations</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="offcanvas-footer">
+                <button type="button" class="logout-btn">Logout <img src="assets/images/exit-icon.svg"
+                        alt="exit"></button>
+            </div>
+        </div>
+        <div class="main-contain-wrap">
+            <div class="alert-section text-center">
+                <p>Configure Telephony/Electronic Visit Verification</p>
+            </div>
+            <div class="contain-wrap-inner">
+                <div class="container-fluid">
+                    <div class="primary-tabs">
+                        <ul class="nav nav-tabs" id="PrimaryTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="Telephony-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Telephony-tab-pane" type="button" role="tab"
+                                    aria-controls="Telephony-tab-pane" aria-selected="true">Telephony</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="Tab2-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Tab2-tab-pane" type="button" role="tab"
+                                    aria-controls="Tab2-tab-pane" aria-selected="false">Tab2</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="Tab3-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Tab3-tab-pane" type="button" role="tab"
+                                    aria-controls="Tab3-tab-pane" aria-selected="false">Tab
+                                    3</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="PrimaryTabContent">
+                            <div class="tab-pane fade show active" id="Telephony-tab-pane" role="tabpanel"
+                                aria-labelledby="Telephony-tab" tabindex="0">
+                                <div class="primary-form">
+                                    <form action="#">
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value="" id="Require">
+                                            <label class="form-check-label" for="Require">
+                                                Require Caregivers To Call Client's Phone
+                                            </label>
+                                        </div>
+                                        <div class="single-form-wrap">
+                                            <div class="row gy-4">
+                                                <div class="col-lg-5">
+                                                    <div class="single-form-box">
+                                                        <div class="form-box-header">
+                                                            <h3>On Logon, Promt For</h3>
+                                                        </div>
+                                                        <div class="form-box-body">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Reimbursable">
+                                                                <label class="form-check-label" for="Reimbursable">
+                                                                    Reimbursable Client Mileage
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Expenses">
+                                                                <label class="form-check-label" for="Expenses">
+                                                                    Miscellaneous Expenses
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Completed">
+                                                                <label class="form-check-label" for="Completed">
+                                                                    Completed Task Code(Telephony Only)
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7">
+                                                    <div class="single-form-box">
+                                                        <div class="form-box-header">
+                                                            <h3>Automatically Link And Verfiy Shift When Call Is WithIn
+                                                            </h3>
+                                                        </div>
+                                                        <div class="form-box-body">
+                                                            <div
+                                                                class="row g-2 g-md-3 align-items-center form-group clockinout mt-0">
+                                                                <div class="col-12 col-md-auto">
+                                                                    <span class="form-title">
+                                                                        Clock In:
+                                                                    </span>
+                                                                </div>
+                                                                <div class="col-4 col-md-auto">
+                                                                    <input type="text" id="MinutesEarlyin"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="col-8 col-md-auto">
+                                                                    <label for="MinutesEarlyin"
+                                                                        class="col-form-label">Minutes Early,
+                                                                        And</label>
+                                                                </div>
+                                                                <div class="col-4 col-md-auto">
+                                                                    <input type="text" id="MinutesLatein"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="col-8 col-md-auto">
+                                                                    <label for="MinutesLatein"
+                                                                        class="col-form-label">Minutes Late</label>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="row g-2 g-md-3 align-items-center form-group clockinout">
+                                                                <div class="col-12 col-md-auto">
+                                                                    <span class="form-title">
+                                                                        Clock Out:
+                                                                    </span>
+                                                                </div>
+                                                                <div class="col-4 col-md-auto">
+                                                                    <input type="text" id="MinutesEarlyout"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="col-8 col-md-auto">
+                                                                    <label for="MinutesEarlyout"
+                                                                        class="col-form-label">Minutes Early,
+                                                                        And</label>
+                                                                </div>
+                                                                <div class="col-4 col-md-auto">
+                                                                    <input type="text" id="MinutesLateout"
+                                                                        class="form-control">
+                                                                </div>
+                                                                <div class="col-8 col-md-auto">
+                                                                    <label for="MinutesLateout"
+                                                                        class="col-form-label">Minutes Late</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single-form-wrap">
+                                            <div class="single-form-box">
+                                                <div class="form-box-header">
+                                                    <h3>Notifications</h3>
+                                                </div>
+                                                <div class="form-box-body">
+                                                    <div class="row gy-3">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="showNotification">
+                                                                <label class="form-check-label" for="showNotification">
+                                                                    No Show Notification
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Caregiver1">
+                                                                <label class="form-check-label" for="Caregiver1">
+                                                                    Caregiver No Show Notification
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Voice">
+                                                                <label class="form-check-label" for="Voice">
+                                                                    Voice Rec Notification
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="EarlyClock">
+                                                                <label class="form-check-label" for="EarlyClock">
+                                                                    Early Clock Out Notification
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="stayNotification">
+                                                                <label class="form-check-label" for="stayNotification">
+                                                                    Over Stay Notification
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Caregiver">
+                                                                <label class="form-check-label" for="Caregiver">
+                                                                    Caregiver Over Stay Notification
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="ClockOut">Clock Out:</label>
+                                                                <input type="text" class="form-control" id="ClockOut">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="ClockOut1">Clock Out:</label>
+                                                                <input type="text" class="form-control" id="ClockOut1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="ClockOut2">Clock Out:</label>
+                                                                <input type="text" class="form-control" id="ClockOut2">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="ClockOut3">Clock Out:</label>
+                                                                <input type="text" class="form-control" id="ClockOut3">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single-form-wrap">
+                                            <div class="row gy-4">
+                                                <div class="col-lg-7">
+                                                    <div class="single-form-box">
+                                                        <div class="form-box-header">
+                                                            <h3>GPS Warring:</h3>
+                                                        </div>
+                                                        <div class="form-box-body">
+                                                            <p>Prevent Automatic Linking Of Shifts When Caregiver In/Out
+                                                                More Than</p>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="SendNotification">
+                                                                <label class="form-check-label" for="SendNotification">
+                                                                    Send Notification When Caregiver Clocks In/Out
+                                                                    Outside Of The Above Range
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="FeetFrom">Feet From Client's Home</label>
+                                                                <input type="text" class="form-control" id="FeetFrom">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5">
+                                                    <div class="single-form-box">
+                                                        <div class="form-box-header">
+                                                            <h3>GPS Warring:</h3>
+                                                        </div>
+                                                        <div class="form-box-body">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="Infrastructure">
+                                                                <label class="form-check-label" for="Infrastructure">
+                                                                    Enable Infrastructure
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="EnableCaregiver">
+                                                                <label class="form-check-label" for="EnableCaregiver">
+                                                                    Enable Caregiver Mobile App
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-group mb-3 mt-3">
+                                                                <label for="RecentEvent">Most Recent Event</label>
+                                                                <input type="text" class="form-control"
+                                                                    id="RecentEvent">
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="EnableEnhanced">
+                                                                <label class="form-check-label" for="EnableEnhanced">
+                                                                    Enable Enhanced SMS
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Tab2-tab-pane" role="tabpanel" aria-labelledby="Tab2-tab"
+                                tabindex="0">
+                                tabs two
+                            </div>
+                            <div class="tab-pane fade" id="Tab3-tab-pane" role="tabpanel" aria-labelledby="Tab3-tab"
+                                tabindex="0">
+                                tabs three
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- js file  -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

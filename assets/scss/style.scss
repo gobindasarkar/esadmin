@@ -1,0 +1,45 @@
+/*
+------------- Table of content ----------------
+
+Template Name: ES Admin  Responsive  HTML5 Template
+Template URI: https://es.com/
+Description: ES Admin  Responsive  HTML5 Template
+Author: Gobinda Sarkar
+Author URI: https://es.com/
+Version: 1.0
+
+---------------------- common content ----------
+1.body reset content
+#.header-area
+#.sidebar-area
+#.primary-tabs
+#.primary-form
+#.video-area
+#.pagination-area
+
+
+
+
+*/
+
+
+/*===============================
+#.pagination-area
+=================================*/
+
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "component/header.scss";
+@import "component/sidebar-area";
+@import "component/primary-tabs";
+@import "component/primary-form";
+@import "component/video-area";
+@import "component/pagination-area";

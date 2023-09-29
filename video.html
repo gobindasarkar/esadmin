@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ES Admin Responsive HTML5 Template</title>
+    <meta name="description" content="ES Admin Responsive  HTML5 Template ">
+    <meta name="keywords"
+        content="business,corporate, creative, woocommerach, design, gallery, minimal, modern, landing page, cv, designer, freelancer, html, one page, personal, portfolio, programmer, responsive, vcard, one page">
+    <meta name="author" content="ES Admin">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- fonts file -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- css file  -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-5">
+                    <a class="brand-logo" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="col-7">
+                    <div class="header-right">
+                        <a href="#" class="header-btn">
+                            <img src="assets/images/bell.svg" alt="bell">
+                            <span class="count">10</span>
+                        </a>
+                        <a href="#" class="header-btn">
+                            <img src="assets/images/inbox.svg" alt="inbox">
+                            <span class="count">10</span>
+                        </a>
+                        <div class="dropdown">
+                            <button class="profile-btn" type="button" data-bs-toggle="dropdown">
+                                <div class="profile-img">
+                                    <img src="assets/images/profile-1.png" alt="Asokh Kumar">
+                                </div>
+                                <div class="profile-info">
+                                    <h4 class="profile-name">Asokh Kumar</h4>
+                                    <span class="admin">Super Admin</span>
+                                </div>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">profile</a></li>
+                                <li><a class="dropdown-item" href="#">inbox</a></li>
+                                <li><a class="dropdown-item" href="#">settings</a></li>
+                                <li><a class="dropdown-item" href="#">log out</a></li>
+                            </ul>
+                        </div>
+                        <button class="d-xl-none toggle-btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                                class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-contain-area">
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling">
+            <div class="offcanvas-header">
+                <div class="user-area">
+                    <div class="user-left">
+                        <img src="assets/images/profile-1.png" alt="user">
+                    </div>
+                    <div class="user-right">
+                        <h3>admin@admin.com</h3>
+                        <ul class="user-meta">
+                            <li><a href="#"><img src="assets/images/inbox-icon.svg" alt="inbox"></a></li>
+                            <li><a href="#"><img src="assets/images/settings-icon.svg" alt="settings"></a></li>
+                            <li><a href="#"><img src="assets/images/logout-icon.svg" alt="logout"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn-close d-xl-none" data-bs-dismiss="offcanvas"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="sidebar-menu">
+                    <ul>
+                        <li class="current-menu-item"><a href="#"><img class="menu-icon"
+                                    src="assets/images/menu-icon-1.svg" alt="icon"> <span>Dashboard</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Clients</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Employees</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Billing</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Payroll</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Availability</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Reports</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Manage admin user</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Notifications</span></a></li>
+                        <li><a href="#"><img class="menu-icon" src="assets/images/menu-icon-1.svg" alt="icon">
+                                <span>Configurations</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="offcanvas-footer">
+                <button type="button" class="logout-btn">Logout <img src="assets/images/exit-icon.svg"
+                        alt="exit"></button>
+            </div>
+        </div>
+        <div class="main-contain-wrap">
+            <div class="alert-section text-center">
+                <p>E&S Homecare Solutions</p>
+            </div>
+            <div class="contain-wrap-inner">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-video-area">
+                                <h3 class="video-title">Invoice Still Open Sttus ?</h3>
+                                <iframe class="single-video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination-area mt-5">
+                        <button>Prev</button>
+                        <button>Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- js file  -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
